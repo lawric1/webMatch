@@ -1,1 +1,1 @@
-play here: https://lawric.itch.io/webtictactoe
+play here: https://lawric.itch.io/webmatch
