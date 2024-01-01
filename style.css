@@ -1,0 +1,42 @@
+@font-face {
+    font-family: pixelart;
+    src: url(./assets/C&C\ Red\ Alert\ [INET].ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layers { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: #101820;
+}
+
+canvas {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    scale: 0.5;
+    image-rendering: pixelated;
+    font-smooth: never;
+    -webkit-font-smoothing : none
+}
+
+#anim-layer {
+    z-index: 3;
+}
+
+#main-layer {
+    z-index: 2;
+}
+
+#bg-layer {
+    z-index: 1;
+}
